@@ -1,0 +1,72 @@
+﻿Build started 11/02/2011 21:11:46.
+     1>Project "E:\Projects\Visual C++\C++\Fusion\traceman\traceman.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\traceman.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D NOMINMAX /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\traceman.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D NOMINMAX /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\traceman.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ApplicationManifestFragment.cpp AssemblyManifestFragment.cpp ConfigManifestFragment.cpp ConsoleMessageLogger.cpp File.cpp FileMessageLogger.cpp ManifestFragment.cpp MessageLogger.cpp ParamParser.cpp PublisherManifestFragment.cpp traceman.cpp Version.cpp XMLReader.cpp
+         XMLReader.cpp
+         Version.cpp
+         traceman.cpp
+         PublisherManifestFragment.cpp
+         ParamParser.cpp
+         MessageLogger.cpp
+         ManifestFragment.cpp
+         FileMessageLogger.cpp
+         File.cpp
+         ConsoleMessageLogger.cpp
+         ConfigManifestFragment.cpp
+         AssemblyManifestFragment.cpp
+         ApplicationManifestFragment.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\traceman.res" traceman.rc 
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\traceman.exe.embed.manifest.res" Debug\traceman_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projects\Visual C++\C++\Fusion\traceman\Debug\traceman.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\traceman.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Projects\Visual C++\C++\Fusion\traceman\Debug\traceman.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\traceman.res
+         Debug\traceman.exe.embed.manifest.res
+         Debug\ApplicationManifestFragment.obj
+         Debug\AssemblyManifestFragment.obj
+         Debug\ConfigManifestFragment.obj
+         Debug\ConsoleMessageLogger.obj
+         Debug\File.obj
+         Debug\FileMessageLogger.obj
+         Debug\ManifestFragment.obj
+         Debug\MessageLogger.obj
+         Debug\ParamParser.obj
+         Debug\PublisherManifestFragment.obj
+         Debug\stdafx.obj
+         Debug\traceman.obj
+         Debug\Version.obj
+         Debug\XMLReader.obj shlwapi.lib 
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\traceman.exe.embed.manifest" /manifest Debug\traceman.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\traceman.exe.embed.manifest.res" Debug\traceman_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projects\Visual C++\C++\Fusion\traceman\Debug\traceman.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\traceman.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Projects\Visual C++\C++\Fusion\traceman\Debug\traceman.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\traceman.res
+         Debug\traceman.exe.embed.manifest.res
+         Debug\ApplicationManifestFragment.obj
+         Debug\AssemblyManifestFragment.obj
+         Debug\ConfigManifestFragment.obj
+         Debug\ConsoleMessageLogger.obj
+         Debug\File.obj
+         Debug\FileMessageLogger.obj
+         Debug\ManifestFragment.obj
+         Debug\MessageLogger.obj
+         Debug\ParamParser.obj
+         Debug\PublisherManifestFragment.obj
+         Debug\stdafx.obj
+         Debug\traceman.obj
+         Debug\Version.obj
+         Debug\XMLReader.obj shlwapi.lib 
+         traceman.vcxproj -> E:\Projects\Visual C++\C++\Fusion\traceman\Debug\traceman.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\traceman.unsuccessfulbuild".
+         Touching "Debug\traceman.lastbuildstate".
+     1>Done Building Project "E:\Projects\Visual C++\C++\Fusion\traceman\traceman.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.06
